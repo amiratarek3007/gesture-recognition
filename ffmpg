@@ -1,0 +1,2 @@
+//command to extract frames
+ffmpeg -i input.mp4 -r 12 %01d.jpg
